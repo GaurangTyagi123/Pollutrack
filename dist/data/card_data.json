@@ -1,0 +1,171 @@
+[
+    {
+        "card_no": 1,
+        "card_title": "State Guidelines",
+        "card_link": [
+            {
+                "region": "Andhra Pradesh",
+                "card_link" : "https://ap.gov.in"
+            },
+            {
+                "region": "Arunachal Pradesh",
+                "card_link" : "https://arunachalpradesh.gov.in"
+            },
+            {
+                "region": "Assam",
+                "card_link" : "https://assam.gov.in"
+            },
+            {
+                "region": "Bihar",
+                "card_link" : "https://state.bihar.gov.in"
+            },
+            {
+                "region": "Chhattisgarh",
+                "card_link" : "https://cgstate.gov.in"
+            },
+            {
+                "region": "Goa",
+                "card_link" : "https://goa.gov.in"
+            },
+            {
+                "region": "Gujarat",
+                "card_link" : "https://gujarat.gov.in"
+            },
+            {
+                "region": "Haryana",
+                "card_link" : "https://haryana.gov.in"
+            },
+            {
+                "region": "Himachal Pradesh",
+                "card_link" : "https://himachal.nic.in"
+            },
+            {
+                "region": "Jammu Kashmir",
+                "card_link" : "https://jk.gov.in"
+            },
+            {
+                "region": "Jharkhand",
+                "card_link" : "https://jharkhand.gov.in"
+            },
+            {
+                "region": "Karnataka",
+                "card_link" : "https://karnataka.gov.in"
+            },
+            {
+                "region": "Kerela",
+                "card_link" : "https://kerela.gov.in"
+            },
+            {
+                "region": "Madhya Pradesh",
+                "card_link" : "https://mp.gov.in"
+            },
+            {
+                "region": "Maharashtra",
+                "card_link" : "https://maharashtra.gov.in"
+            },
+            {
+                "region": "Manipur",
+                "card_link" : "https://manipur.nic.in"
+            },
+            {
+                "region": "Meghalaya",
+                "card_link" : "https://meghalya.gov.in"
+            },
+            {
+                "region": "Mizoram",
+                "card_link" : "https://mizoram.nic.in"
+            },
+            {
+                "region": "Nagaland",
+                "card_link" : "https://nagaland.gov.in"
+            },
+            {
+                "region": "Odisha",
+                "card_link" : "https://odisha.gov.in"
+            },
+            {
+                "region": "Punjab",
+                "card_link" : "https://punjab.gov.in"
+            },
+            {
+                "region": "Rajasthan",
+                "card_link" : "https://rajasthan.gov.in"
+            },
+            {
+                "region": "Sikkim",
+                "card_link" : "https://sikkim.gov.in"
+            },
+            {
+                "region": "Tamil Nadu",
+                "card_link" : "https://tn.gov.in"
+            },
+            {
+                "region": "Telengana",
+                "card_link" : "https://telangana.gov.in"
+            },
+            {
+                "region": "Tripura",
+                "card_link" : "https://tripura.gov.in"
+            },
+            {
+                "region": "Uttrakhand",
+                "card_link" : "https://uk.gov.in"
+            },
+            {
+                "region": "Uttar Pradesh",
+                "card_link" : "https://up.gov.in"
+            },
+            {
+                "region": "West Bengal",
+                "card_link" : "https://wb.gov.in"
+            },
+            {
+                "region": "Andaman Nicobar Islands",
+                "card_link" : "https://andaman.gov.in"
+            },
+            {
+                "region": "Chandigarh",
+                "card_link" : "https://chandigarh.gov.in"
+            },
+            {
+                "region": "Dadar and Nagar Haveli",
+                "card_link" : "https://dnh.gov.in"
+            },
+            {
+                "region": "Daman and Diu",
+                "card_link" : "https://ddd.gov.in"
+            },
+            {
+                "region": "Delhi",
+                "card_link" : "https://delhi.gov.in"
+            },
+            {
+                "region": "Lakshadweep",
+                "card_link" : "https://lakshadweep.gov.in"
+            },
+            {
+                "region": "Puducherry",
+                "card_link" : "https://py.gov.in"
+            }
+        ],
+        "image_link" : "D:/Projects/Pollution_Tracker/pollution_tracker/public/card_images/card1_background.jpg"
+    },
+    {
+        "card_no" : 2,
+        "card_title" : "GOI Guidlines",
+        "card_link" : "https://moef.gov.in/pollution#:~:text=Central%20Pollution%20Control%20Board%20(CPCB,to%20counter%20air%20pollution%20in",
+        "image_link" : "D:/Projects/Pollution_Tracker/pollution_tracker/public/card_images/card2_background.jpg"
+    },
+    {
+        "card_no" : 3,
+        "card_title" : "WHO guidelines",
+        "card_link" : "https://www.who.int/news-room/feature-stories/detail/what-are-the-who-air-quality-guidelines",
+        "image_link" : "D:/Projects/Pollution_Tracker/pollution_tracker/public/card_images/card3_background.png"
+    },
+    {
+        "card_no" : 4,
+        "card_title" : "Effects of Air Pollution",
+        "card_link" : "https://www.who.int/news/item/25-06-2024-what-are-health-consequences-of-air-pollution-on-populations",
+        "image_link" : "D:/Projects/Pollution_Tracker/pollution_tracker/public/card_images/card4_background.jpg"
+    }
+]
