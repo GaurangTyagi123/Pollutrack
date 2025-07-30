@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid lime; */
+}
+
+:root {
+    --bg-color: #ddd;
+    --color-primary: rgba(44, 44, 219, .8);
+    --color-secondary: rgba(10, 10, 214, 0.745);
+    --outline-color: rgb(30, 104, 251);
+    --scrollbar-color: rgb(30, 104, 251);
+    --scrollbar-track-color: #e4e3e3;
+    --grey-light: #373737;
+    --box-shadow-light: rgba(0, 0, 0, .4);
+    --box-shadow-dark: rgba(0, 0, 0, .6);
+    --font-poppins: 'Poppins'
+}
+
+::-webkit-scrollbar {
+    width: .9rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-color);
+    border-radius: 2rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track-color);
+}
+
+html {
+    font-size: 62.5%;
+    background-color: var(--bg-color);
+}
+
+.container {
+    height: 100%;
+    overflow-X: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.cards__container {
+    display: flex;
+    height: 100%;
+    width: 99%;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.dove__svg__up {
+    position: absolute;
+    fill: black;
+}
+
+.dove__svg__down {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    z-index: 1;
+    fill: black;
+    transform: rotateY(180deg);
+}
+

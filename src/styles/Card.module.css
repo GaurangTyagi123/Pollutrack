@@ -1,0 +1,87 @@
+.card{
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    margin-inline: 3rem;
+    background: linear-gradient(to bottom right ,#ddd 85%,rgba(44, 44, 219,.8) 85%);
+    color: #373737;
+    border-radius: 2rem;
+    box-shadow: 0 1.5rem 4rem var(--box-shadow-dark);
+    overflow: hidden;
+    scale : 0.98;
+    transition: scale .4s ease-in-out;
+}
+.card:hover{
+    scale: 1.02
+}
+.card__image{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* padding-block-end: 2rem; */
+    border-bottom: 1px solid black;
+    border-radius: 0 0 3rem 3rem;
+}
+.card__title{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: start;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    letter-spacing: .3rem;
+    line-height: 5rem;
+    /* padding-inline: 1.5rem; */
+    text-align: center;
+
+}
+.card__button,.card__button:visited{
+    outline: 1px solid var(--color-primary);
+    margin-block-end: 1rem;
+    color:inherit;
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 1.5rem 4rem var(--box-shadow-light);
+    overflow: hidden;
+    position: relative;
+    transition: translate .3s ease-in-out,scale .3s ease-in-out;
+}
+.card__button:active,.card__button:hover{
+    box-shadow: 0 1.5rem 4rem var(--box-shadow-dark);
+    translate: 0 .3rem;
+    scale: 1.01
+
+}
+.card__button>span{
+    z-index: 1;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.card__button::after{
+    content: '';
+    position: absolute;
+    inset: 0 ;
+    cursor: pointer;
+    height: 0%;
+    width: 0%;
+    background-color: var(--color-primary);
+    transition: all .3s ease-in-out;
+    border-radius: 2rem;
+}
+.card__button:hover::after{
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--color-primary);
+}
+.card__button:hover span{
+    color: #eee;
+}

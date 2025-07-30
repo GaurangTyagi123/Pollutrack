@@ -1,0 +1,63 @@
+.menu__container {
+    --listitem-color: rgba(10, 10, 214, 0.744)
+}
+
+.menu__container {
+    height: 10vh;
+    width: 70%;
+    align-self: start;
+    position: fixed;
+    padding: 2rem;
+    z-index: 1;
+    background-color: var(--bg-color);
+    border-radius: 1rem;
+}
+
+.menu__container__list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    text-align: center;
+}
+a,a:visited{
+    text-decoration: none;
+    color: var(--color-primary);
+}
+.menu__container__listitem {
+    height: 100%;
+    margin-bottom: 1rem;
+    padding: 2rem 2rem;
+    border-radius: 0 0 1rem 1rem;
+    display: grid;
+    place-items: center;
+    text-decoration: underline;
+    text-underline-offset: .6rem;
+    transition: all .3s ease-in-out;
+}
+
+.menu__container__listitem:hover {
+    background-color: var(--listitem-color);
+    color: var(--bg-color);
+    cursor: pointer
+}
+
+.menu__container__listitem--highlight {
+    padding: 1rem;
+    font-size: 1rem;
+    letter-spacing: .3rem;
+    background-color: var(--listitem-color);
+    color: var(--bg-color);
+
+}
+
+.menu__container__listitem:last-child {
+    text-decoration: none;
+    
+}

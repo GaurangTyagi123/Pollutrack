@@ -1,0 +1,70 @@
+.footer{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color-secondary);
+    border-radius: 2rem 2rem 0 0;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-right: 1px solid var(--bg-color);
+}
+.logo__name{
+    color: var(--bg-color);
+    text-transform: uppercase;
+    font-family: var(--font-poppins);
+    letter-spacing: .4rem;
+    font-weight: 400;
+}
+.logo__image{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+.socials{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.socials__container{
+    position: relative;
+    height: 100%;
+    width: max-content;
+    cursor: pointer;
+}
+.socials__container span{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    color: white;
+    display: grid;
+    place-items: center;
+    z-index: -1;
+    font-family: var(--font-poppins);
+    font-weight: 400;
+    transition: translate .3s  ease-in-out,opacity .3s .2s ease-in-out ;
+}
+.socials__svg{
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    fill: white;
+    transition: translate .3s ease-in-out,scale .3s ease-in-out;
+}
+.socials__container:hover>svg{
+    translate: 0 -1.5rem;
+    scale:1.1
+}
+.socials__container:hover span{
+    opacity: 1;
+    z-index: 1;
+    translate: 0 2rem
+}
