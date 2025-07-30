@@ -62,9 +62,9 @@ function Header({ position }) {
 
     return (
         <header className={HeaderStyle.header} ref={sliderTrack} id='header'>
-            <HeaderPanel title='aqi' value={`${pm2_5 ? pm2_5 : 432} ${pm2_5_unit} (pm 2.5)`} svgId='icon-cloud' background={{ img: 'aqi', color: 'rgba(5, 5, 7, 0.321)', border: 'rgb(47, 110, 116)' }} icon={<HiCloud />} />
-            <HeaderPanel title='dust' value={`${dust ? dust : 1} ${dust_unit}`} svgId='icon-wind' background={{ img: 'windy', color: 'rgba(9, 137, 201, 0.32)', border: 'rgb(9, 137, 201)' }} icon={<GiDustCloud />} />
-            <HeaderPanel title='UV Index' value={`${uv_index ? uv_index : 432} ${uv_index_unit}`} svgId='icon-sun' background={{ img: 'sunshine', color: 'rgba(236, 129, 13, 0.32)', border: 'rgba(236, 129, 13,.9)' }} icon={<TbUvIndex />} />
+            <HeaderPanel title='aqi' value={`${pm2_5 ? pm2_5 : 432} ${pm2_5_unit} (pm 2.5)`}  background={{ img: 'aqi', color: 'rgba(5, 5, 7, 0.321)', border: 'rgb(47, 110, 116)' }} icon={<HiCloud />} />
+            <HeaderPanel title='dust' value={`${dust ? dust : 1} ${dust_unit}`}  background={{ img: 'windy', color: 'rgba(9, 137, 201, 0.32)', border: 'rgb(9, 137, 201)' }} icon={<GiDustCloud />} />
+            <HeaderPanel title='UV Index' value={`${uv_index ? uv_index : 432} ${uv_index_unit}`}  background={{ img: 'sunshine', color: 'rgba(236, 129, 13, 0.32)', border: 'rgba(236, 129, 13,.9)' }} icon={<TbUvIndex />} />
         </header>
 
 

@@ -16,9 +16,9 @@ function HeaderPanel({ title, value, svgId, background, icon }) {
             <div className={`${HeaderStyle.header__panel}`} ref={headerPanel}>
                 <div className={HeaderStyle.heading}>
                     <h1 className={HeaderStyle.heading__title}>{title}</h1>
-                    <small className={HeaderStyle.heading__value}><span>{value} {icon}</span><svg className={HeaderStyle.heading__icon}>
-                        <use xlinkHref={`${Sprite}#${svgId}`}></use>
-                    </svg></small>
+                    <small className={HeaderStyle.heading__value}><span>{value} {icon}</span>
+                        {svgId}
+                    </small>
 
                 </div>
             </div>

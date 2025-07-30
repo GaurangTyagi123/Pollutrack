@@ -11,23 +11,17 @@ function Cards({ region }) {
             const res = await fetch('./data/card_data.json');
             const data = await res.json();
             if (data.length > 0) {
-                const {card_link} = data.at(0).card_link.find(link => link.region == region)
+                const { card_link } = data.at(0).card_link.find(link => link.region == region)
                 setCardLink(card_link)
                 setCardData(data)
             }
         }
         if (!cardData.length)
             getData()
-    }, [cardData,region])
+    }, [cardData, region])
 
     return (
         <div className={styles.cards__container} id="guidelines">
-            <svg className={styles.dove__svg__up}>
-                <use xlinkHref={`${SVG}#icon-dove`}></use>
-            </svg>
-            <svg className={` ${styles.dove__svg__down}`}>
-                <use xlinkHref={`${SVG}#icon-dove`}></use>
-            </svg>
             {cardData.map(card => {
                 return <Card key={card.card_no} Title={card.card_title} link={cardLink} image={card.image_link} />
             })}
