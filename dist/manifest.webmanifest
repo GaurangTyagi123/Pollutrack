@@ -2,12 +2,12 @@
     "name": "Pollutrack",
     "short_name": "Pollutrack",
     "description": "Pollutrack allows you to check aqi of your location and see the weather forcast",
-    "start_url": "/dist",
+    "start_url": "/Pollutrack/dist",
     "display": "standalone",
     "background_color": "#2c2cdbcc",
     "theme_color": "#171717",
     "lang": "en",
-    "scope": "/dist",
+    "scope": "/Pollutrack/dist",
     "icons": [
         {
             "src": "/icon.ico",
