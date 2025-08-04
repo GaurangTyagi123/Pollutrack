@@ -39,8 +39,8 @@ const manifestForPlugIn = {
     theme_color: '#171717',
     background_color: '#2c2cdbcc',
     display: "standalone",
-    scope: '/Pollutrack/dist',
-    start_url: "/Pollutrack/dist",
+    scope: 'https://gaurangtyagi123.github.io/Pollutrack/dist',
+    start_url: "https://gaurangtyagi123.github.io/Pollutrack/dist/Pollutrack/dist",
     orientation: 'portrait'
   }
 }
