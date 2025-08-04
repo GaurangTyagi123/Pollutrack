@@ -1,1 +1,38 @@
-{"name":"Pollutrack","short_name":"Pollutrack","description":"Pollutrack allows you to check aqi of your location and see the weather forcast","start_url":"/","display":"standalone","background_color":"#2c2cdbcc","theme_color":"#171717","lang":"en","scope":"/","icons":[{"src":"/icon.ico","sizes":"192x192","type":"image/x-icon","purpose":"favicon"},{"src":"/icon.ico","sizes":"512x512","type":"image/x-icon","purpose":"favicon"},{"src":"/icon.ico","sizes":"180x180","type":"image/png","purpose":"apple touch icon"},{"src":"/icon.ico","sizes":"512x512","type":"image/x-icon","purpose":"any maskable"}],"orientation":"portrait"}
+{
+    "name": "Pollutrack",
+    "short_name": "Pollutrack",
+    "description": "Pollutrack allows you to check aqi of your location and see the weather forcast",
+    "start_url": "/dist",
+    "display": "standalone",
+    "background_color": "#2c2cdbcc",
+    "theme_color": "#171717",
+    "lang": "en",
+    "scope": "/dist",
+    "icons": [
+        {
+            "src": "/icon.ico",
+            "sizes": "192x192",
+            "type": "image/x-icon",
+            "purpose": "favicon"
+        },
+        {
+            "src": "/icon.ico",
+            "sizes": "512x512",
+            "type": "image/x-icon",
+            "purpose": "favicon"
+        },
+        {
+            "src": "/icon.ico",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "apple touch icon"
+        },
+        {
+            "src": "/icon.ico",
+            "sizes": "512x512",
+            "type": "image/x-icon",
+            "purpose": "any maskable"
+        }
+    ],
+    "orientation": "portrait"
+}
