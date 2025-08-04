@@ -12,15 +12,15 @@ const manifestForPlugIn = {
     short_name: "Pollutrack",
     description: "Pollutrack allows you to check aqi of your location and see the weather forcast",
     icons: [{
-      src: '/android-chrome-192x192.png',
+      src: '/icon.ico',
       sizes: '192x192',
-      type: 'image/png',
+      type: 'image/x-icon',
       purpose: 'favicon'
     },
     {
       src: '/icon.ico',
       sizes: '512x512',
-      type: 'image/png',
+      type: 'image/x-icon',
       purpose: 'favicon'
     },
     {
@@ -32,15 +32,15 @@ const manifestForPlugIn = {
     {
       src: '/icon.ico',
       sizes: '512x512',
-      type: 'image/png',
+      type: 'image/x-icon',
       purpose: 'any maskable',
     }
     ],
     theme_color: '#171717',
     background_color: '#2c2cdbcc',
     display: "standalone",
-    scope: '/dist',
-    start_url: "/dist",
+    scope: '/',
+    start_url: "/",
     orientation: 'portrait'
   }
 }
