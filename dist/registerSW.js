@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js', { scope: '/' })})}
+if ('serviceWorker' in navigator) { window.addEventListener('load', () => { navigator.serviceWorker.register('https://gaurangtyagi123.github.io/Pollutrack/dist/sw.js', { scope: 'https://gaurangtyagi123.github.io/Pollutrack/dist/' }) }) }
